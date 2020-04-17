@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/PryosCode/ProxerExport/raw/master/ProxerAutoWatchlist.user.js"><img src="https://img.shields.io/github/v/release/PryosCode/ProxerExport?label=Install" alt="Downloads"></a>
+    <a href="https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.user.js"><img src="https://img.shields.io/github/v/release/PryosCode/ProxerExport?label=Install" alt="Downloads"></a>
     <a href="https://github.com/PryosCode/ProxerExport/blob/master/LICENSE"><img src="https://img.shields.io/github/license/PryosCode/ProxerExport?label=License" alt="License"></a>
     <a href="https://discord.gg/bF2GRHq"><img src="https://discordapp.com/api/guilds/350302354639290379/widget.png" alt="Discord"></a>
 </p>

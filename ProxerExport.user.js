@@ -7,8 +7,8 @@
 // @website     https://github.com/PryosCode/ProxerExport
 // @supportURL  https://github.com/PryosCode/ProxerExport/issues
 // @icon        https://github.com/PryosCode/ProxerExport/raw/master/images/logo.png
-// @updateURL   https://github.com/PryosCode/ProxerExport/raw/master/ProxerAutoWatchlist.meta.js
-// @downloadURL https://github.com/PryosCode/ProxerExport/raw/master/ProxerAutoWatchlist.user.js
+// @updateURL   https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.meta.js
+// @downloadURL https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.user.js
 // @license     AGPL-3.0
 // @copyright   Copyright (C) 2020 PryosCode
 // @run-at      document-end
