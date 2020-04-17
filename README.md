@@ -6,7 +6,7 @@
 
 # ProxerExport
 
-Export your Proxer-Lists.
+Export your Proxer-Lists (Anime, Manga and Novel) to a JSON-File.
 
 1. [Getting Started](#getting-started)
 2. [Installation](#installation)
@@ -15,7 +15,66 @@ Export your Proxer-Lists.
 
 ## Getting Started
 
-_Coming Soon_
+Export your Proxer-Lists (Anime, Manga and Novel) to a JSON-File with one click and backup it or use it in your own program.
+
+### Example file
+
+File name
+
+```
+[2020-04-17_21-09-38]-animelist.json
+```
+
+File content
+
+```json
+{
+	"geschaut": [
+		{
+			"name": "One Punch Man",
+			"state": "12 / 12",
+			"type": "Animeserie",
+			"url": "https://proxer.me/info/11825#top"
+		},
+		{
+			"name": "Overlord",
+			"state": "13 / 13",
+			"type": "Animeserie",
+			"url": "https://proxer.me/info/13164#top"
+		}
+	],
+	"am-schauen": [
+		{
+			"name": "One Punch Man 2nd Season",
+			"state": "6 / 12",
+			"type": "Animeserie",
+			"url": "https://proxer.me/info/17943#top"
+		}
+	],
+	"wird-noch-geschaut": [
+		{
+			"name": "Overlord II",
+			"state": "0 / 13",
+			"type": "Animeserie",
+			"url": "https://proxer.me/info/18847#top"
+		},
+		{
+			"name": "Overlord III",
+			"state": "0 / 13",
+			"type": "Animeserie",
+			"url": "https://proxer.me/info/22854#top"
+		}
+	],
+	"abgebrochen": [
+		{
+			"name": "Conception: Ore no Kodomo wo Undekure!",
+			"state": "5 / 12",
+			"type": "Animeserie",
+			"url": "https://proxer.me/info/23058#top"
+		}
+	]
+}
+```
 
 ## Installation
 
@@ -33,7 +92,17 @@ After that you have to [open this link](https://github.com/PryosCode/ProxerExpor
 
 ## How to use
 
-_Coming Soon_
+You can use it in your
+
+- [Animelist](https://proxer.me/ucp?s=anime)
+- [Mangalist](https://proxer.me/ucp?s=manga)
+- [Novellist](https://proxer.me/ucp?s=novel)
+
+with just a click of a button.
+
+<p align="center">
+    <img src="https://github.com/PryosCode/ProxerExport/raw/master/images/export.png" alt="Export" style="max-width: 100%">
+</p>
 
 ## License
 
