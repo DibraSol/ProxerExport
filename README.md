@@ -21,7 +21,7 @@ _Coming Soon_
 
 You just have to install [Tampermonkey](https://www.tampermonkey.net) or an other Userscript-Manager for your browser:
 
-- [Chrome](https://chrome.google.com/webstore/detail/tampermonkey)
+- [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 - [Microsoft Edge](https://www.microsoft.com/store/apps/9NBLGGH5162S)
 - [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey)

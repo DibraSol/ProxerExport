@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        ProxerExport
-// @version     1.0
+// @version     1.1
 // @description Export your Proxer-Lists.
 // @author      PryosCode
 // @namespace   https://github.com/PryosCode/ProxerExport
@@ -16,7 +16,7 @@
 // ==/UserScript==
 
 setInterval(function () {
-    if (document.getElementById("ProxerExport") == null) {
+    if (document.getElementById("ProxerExport") == null && document.querySelectorAll("#box-table-a").length !== 0) {
         main();
     }
 }, 100);
