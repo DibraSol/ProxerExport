@@ -37,9 +37,6 @@ function addButton(listName) {
     button.style = "width:200px; margin:10px; cursor: pointer;";
     button.id = "ProxerExport";
     button.addEventListener("click", () => download(listName), false);
-    const icon = document.createElement("i");
-    icon.className = "fa fa-file-import";
-    button.appendChild(icon);
     const text = document.createTextNode("ProxerExport");
     button.appendChild(text);
     const accordion = document.getElementById("accordion");
@@ -52,7 +49,6 @@ function download(listName) {
     categories.forEach(function (category) {
         const part = category.children.item(0);
         const title = part.children.item(0).children.item(0).innerHTML.toLowerCase().replace(/ /g, "-");
-        console.log(title);
         let list = [];
         for(let i = 2; i < part.children.length; i++) {
             if(part.children.item(i).id.length !== 0) {
@@ -66,7 +62,6 @@ function download(listName) {
             }
         }
         json[title] = list;
-        console.log(list);
     });
 
     const content = JSON.stringify(json, null, "\t");
