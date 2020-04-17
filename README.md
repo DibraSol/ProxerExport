@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.user.js"><img src="https://img.shields.io/github/v/release/PryosCode/ProxerExport?label=Install" alt="Downloads"></a>
+    <a href="https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.user.js"><img src="https://img.shields.io/github/v/release/PryosCode/ProxerExport?label=Install" alt="Install"></a>
     <a href="https://github.com/PryosCode/ProxerExport/blob/master/LICENSE"><img src="https://img.shields.io/github/license/PryosCode/ProxerExport?label=License" alt="License"></a>
     <a href="https://discord.gg/bF2GRHq"><img src="https://discordapp.com/api/guilds/350302354639290379/widget.png" alt="Discord"></a>
 </p>
@@ -92,13 +92,13 @@ After that you have to [open this link](https://github.com/PryosCode/ProxerExpor
 
 ## How to use
 
-You can use it in your
+You can export your
 
 - [Animelist](https://proxer.me/ucp?s=anime)
 - [Mangalist](https://proxer.me/ucp?s=manga)
 - [Novellist](https://proxer.me/ucp?s=novel)
 
-with just a click of a button.
+with just a click of a button to a JSON-File.
 
 <p align="center">
     <a href="https://proxer.me/ucp?s=anime"><img src="https://github.com/PryosCode/ProxerExport/raw/master/images/export.png" alt="Export" style="max-width: 100%"></a>
