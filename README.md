@@ -6,7 +6,7 @@
 
 # <a href="https://proxer.me"><img src="https://github.com/PryosCode/ProxerExport/raw/master/images/logo.png" alt="Proxer"></a> ProxerExport
 
-Export your Proxer-Lists (Anime, Manga and Novel) to a JSON-File.
+Export your [Proxer](https://proxer.me)-Lists ([Anime](https://proxer.me/ucp?s=anime), [Manga](https://proxer.me/ucp?s=manga) and [Novel](https://proxer.me/ucp?s=novel)) to a JSON-File.
 
 1. [Getting Started](#getting-started)
 2. [Installation](#installation)
@@ -15,7 +15,7 @@ Export your Proxer-Lists (Anime, Manga and Novel) to a JSON-File.
 
 ## Getting Started
 
-Export your Proxer-Lists (Anime, Manga and Novel) to a JSON-File with one click and backup it or use it in your own program.
+Export your [Proxer](https://proxer.me)-Lists ([Anime](https://proxer.me/ucp?s=anime), [Manga](https://proxer.me/ucp?s=manga) and [Novel](https://proxer.me/ucp?s=novel)) to a JSON-File with one click and backup it or use it in your own program.
 
 ### Example file
 
@@ -78,7 +78,7 @@ File content
 
 ## Installation
 
-You just have to install [Tampermonkey](https://www.tampermonkey.net) or an other Userscript-Manager for your browser:
+You just have to install [Tampermonkey](https://www.tampermonkey.net) or an other Userscript-Manager for your browser.
 
 - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 - [Microsoft Edge](https://www.microsoft.com/store/apps/9NBLGGH5162S)
@@ -106,7 +106,7 @@ with just a click of a button.
 
 ## License
 
-Copyright (C) 2020 PryosCode
+Copyright (C) 2020 [PryosCode](https://pryoscode.net/)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
