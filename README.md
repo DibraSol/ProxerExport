@@ -22,7 +22,7 @@ Export your [Proxer](https://proxer.me)-Lists ([Anime](https://proxer.me/ucp?s=a
 File name
 
 ```
-[2020-04-17_21-09-38]-animelist.json
+animelist-[2020-04-17_22-26-48].json
 ```
 
 File content
