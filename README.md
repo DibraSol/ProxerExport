@@ -19,7 +19,17 @@ _Coming Soon_
 
 ## Installation
 
-_Coming Soon_
+You just have to install [Tampermonkey](https://www.tampermonkey.net) or an other Userscript-Manager for your browser:
+
+- [Chrome](https://chrome.google.com/webstore/detail/tampermonkey)
+- [Microsoft Edge](https://www.microsoft.com/store/apps/9NBLGGH5162S)
+- [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey)
+- [Opera Next](https://addons.opera.com/en/extensions/details/tampermonkey-beta)
+- [Dolphin Browser](https://play.google.com/store/apps/details?id=net.tampermonkey.dolphin)
+- [UC Browser](https://play.google.com/store/apps/details?id=net.tampermonkey.dolphin)
+
+After that you have to [open this link](https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.user.js) and click on install.
 
 ## How to use
 
