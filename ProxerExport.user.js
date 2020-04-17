@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        ProxerExport
-// @version     1.1
+// @version     1.2
 // @description Export your Proxer-Lists.
 // @author      PryosCode
 // @namespace   https://github.com/PryosCode/ProxerExport
@@ -76,7 +76,7 @@ function download(listName) {
     const minutes = ("0" + date.getMinutes()).slice(-2);
     const seconds = ("0" + date.getSeconds()).slice(-2);
 
-    downloader.download = "[" + year + "-" + month + "-" + day + "_" + hours + "-" + minutes + "-" + seconds + "]-" + listName + ".json";
+    downloader.download = listName + "-[" + year + "-" + month + "-" + day + "_" + hours + "-" + minutes + "-" + seconds + "]" + ".json";
     downloader.href = URL.createObjectURL(file);
     document.body.appendChild(downloader);
     downloader.click();
