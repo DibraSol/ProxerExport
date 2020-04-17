@@ -101,7 +101,7 @@ You can use it in your
 with just a click of a button.
 
 <p align="center">
-    <img src="https://github.com/PryosCode/ProxerExport/raw/master/images/export.png" alt="Export" style="max-width: 100%">
+    <a href="https://proxer.me/ucp?s=anime"><img src="https://github.com/PryosCode/ProxerExport/raw/master/images/export.png" alt="Export" style="max-width: 100%"></a>
 </p>
 
 ## License
