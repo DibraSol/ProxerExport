@@ -4,7 +4,7 @@
     <a href="https://discord.gg/bF2GRHq"><img src="https://discordapp.com/api/guilds/350302354639290379/widget.png" alt="Discord"></a>
 </p>
 
-# ProxerExport
+# <a href="https://proxer.me"><img src="https://github.com/PryosCode/ProxerExport/raw/master/images/logo.png" alt="Proxer"></a> ProxerExport
 
 Export your Proxer-Lists (Anime, Manga and Novel) to a JSON-File.
 
