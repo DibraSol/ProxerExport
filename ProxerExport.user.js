@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        ProxerExport
-// @version     1.2
+// @version     1.3
 // @description Export your Proxer-Lists.
 // @author      PryosCode
 // @namespace   https://github.com/PryosCode/ProxerExport
@@ -12,7 +12,7 @@
 // @license     AGPL-3.0
 // @copyright   Copyright (C) 2020 PryosCode
 // @run-at      document-end
-// @match       https://proxer.me/*
+// @include     /^(http|https):\/\/proxer\.(me|net)/*
 // ==/UserScript==
 
 setInterval(function () {
@@ -64,7 +64,7 @@ function download(listName) {
         json[title] = list;
     });
 
-    const content = JSON.stringify(json, null, "\t");
+    const content = JSON.stringify(json);
     const file = new Blob([ content ], { type: "application/json" });
     const downloader = document.createElement("a");
 
