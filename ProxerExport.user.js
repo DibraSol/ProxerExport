@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        ProxerExport
-// @version     1.4.1
+// @version     1.4.2
 // @description Export your Proxer-Lists.
 // @author      PryosCode
 // @namespace   https://github.com/PryosCode/ProxerExport
@@ -10,7 +10,7 @@
 // @updateURL   https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.meta.js
 // @downloadURL https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.user.js
 // @license     Apache-2.0
-// @copyright   PryosCode
+// @copyright   Copyright 2021 PryosCode
 // @run-at      document-end
 // @include     /^(http|https):\/\/proxer\.(me|net)/*
 // ==/UserScript==
