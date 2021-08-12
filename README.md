@@ -4,7 +4,7 @@
     <a href="https://github.com/PryosCode/ProxerExport/blob/master/LICENSE"><img src="https://img.shields.io/github/license/PryosCode/ProxerExport?label=License" alt="License"></a>
 </p>
 
-# <a href="https://proxer.me"><img src="https://github.com/PryosCode/ProxerExport/raw/master/images/logo.png" alt="Proxer"></a> ProxerExport
+# <a href="https://proxer.me"><img src="https://github.com/PryosCode/ProxerExport/raw/master/img/logo.png" alt="Proxer"></a> ProxerExport
 
 Export your [Proxer](https://proxer.me)-Lists ([Anime](https://proxer.me/ucp?s=anime), [Manga](https://proxer.me/ucp?s=manga) and [Novel](https://proxer.me/ucp?s=novel)) to a JSON-File.
 
@@ -16,7 +16,7 @@ After that you [open this link](https://github.com/PryosCode/ProxerExport/raw/ma
 
 ## Usage
 
-[![Anime](https://github.com/PryosCode/ProxerExport/raw/master/images/export.png)](https://proxer.me/ucp?s=anime)
+[![Anime](https://github.com/PryosCode/ProxerExport/raw/master/img/export.png)](https://proxer.me/ucp?s=anime)
 
 ## Example
 
