@@ -1,78 +1,70 @@
 <p align="center">
     <a href="https://github.com/PryosCode/ProxerExport/tags"><img src="https://img.shields.io/github/v/release/PryosCode/ProxerExport?label=Version" alt="Version"></a>
-    <a href="https://github.com/PryosCode/ProxerExport/actions"><img alt="Release" src="https://github.com/PryosCode/ProxerExport/actions/workflows/release.yml/badge.svg"></a>
+    <a href="https://github.com/PryosCode/ProxerExport/actions/workflows/build.yml"><img alt="Build" src="https://github.com/PryosCode/ProxerExport/actions/workflows/build.yml/badge.svg"></a>
     <a href="https://github.com/PryosCode/ProxerExport/blob/master/LICENSE"><img src="https://img.shields.io/github/license/PryosCode/ProxerExport?label=License" alt="License"></a>
 </p>
 
-# <a href="https://github.com/PryosCode/ProxerExport/blob/master/img/proxer.png"><img src="https://github.com/PryosCode/ProxerExport/raw/master/img/proxer.png" alt="Proxer"></a> ProxerExport
+# <a href="https://github.com/PryosCode/ProxerExport/blob/master/src/logo.png"><img src="https://github.com/PryosCode/ProxerExport/raw/master/src/logo.png" alt="Logo"></a> ProxerExport
 
-Export your [Proxer](https://proxer.me)-Lists ([Anime](https://proxer.me/ucp?s=anime), [Manga](https://proxer.me/ucp?s=manga) and [Novel](https://proxer.me/ucp?s=novel)) to a JSON-File.
+Exportiere deine [Proxer](https://proxer.me) Listen ([Anime](https://proxer.me/ucp?s=anime), [Manga](https://proxer.me/ucp?s=manga) und [Novel](https://proxer.me/ucp?s=novel)) in eine JSON Datei.
 
 ## Installation
 
-You just have to install [Tampermonkey](https://www.tampermonkey.net) or an other Userscript-Manager for your browser.
+~~Chrome~~
 
-After that you [open this link](https://github.com/PryosCode/ProxerExport/raw/master/ProxerExport.user.js) and click on install.
+~~Firefox~~
 
-## Usage
+## Nutzung
 
 [![Anime](https://github.com/PryosCode/ProxerExport/raw/master/img/export.png)](https://proxer.me/ucp?s=anime)
 
-## Example
+## Beispiel
 
 ```
-animelist-[2020-04-17_22-26-48].json
+anime-[2021-12-28_01-05-30].json
 ```
 
 ```json
 {
   "geschaut": [
     {
-      "name": "One Punch Man",
-      "state": "12 / 12",
-      "type": "Animeserie",
-      "url": "https://proxer.me/info/11825#top"
-    },
-    {
-      "name": "Overlord",
-      "state": "13 / 13",
-      "type": "Animeserie",
-      "url": "https://proxer.me/info/13164#top"
+      "name": "Shingeki no Kyojin",
+      "medium": "Animeserie",
+      "bewertung": 10,
+      "stand": "25 / 25",
+      "url": "https://proxer.me/info/5840"
     }
   ],
   "am-schauen": [
     {
-      "name": "One Punch Man 2nd Season",
-      "state": "6 / 12",
-      "type": "Animeserie",
-      "url": "https://proxer.me/info/17943#top"
+      "name": "Overlord",
+      "medium": "Animeserie",
+      "bewertung": 0,
+      "stand": "3 / 13",
+      "url": "https://proxer.me/info/13164"
     }
   ],
   "wird-noch-geschaut": [
     {
-      "name": "Overlord II",
-      "state": "0 / 13",
-      "type": "Animeserie",
-      "url": "https://proxer.me/info/18847#top"
-    },
-    {
-      "name": "Overlord III",
-      "state": "0 / 13",
-      "type": "Animeserie",
-      "url": "https://proxer.me/info/22854#top"
+      "name": "Shingeki no Kyojin Season 2",
+      "medium": "Animeserie",
+      "bewertung": 0,
+      "stand": "0 / 12",
+      "url": "https://proxer.me/info/9648"
     }
   ],
   "abgebrochen": [
     {
-      "name": "Conception: Ore no Kodomo wo Undekure!",
-      "state": "5 / 12",
-      "type": "Animeserie",
-      "url": "https://proxer.me/info/23058#top"
+      "name": "Sword Art Online",
+      "medium": "Animeserie",
+      "bewertung": 1,
+      "stand": "6 / 25",
+      "url": "https://proxer.me/info/4167"
     }
   ]
 }
 ```
 
-## License
+## Lizenz
 
 [Apache License 2.0](https://github.com/PryosCode/ProxerExport/blob/master/LICENSE)

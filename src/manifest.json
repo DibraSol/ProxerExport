@@ -1,0 +1,21 @@
+{
+  "author": "ProxerExport",
+  "content_scripts": [
+    {
+      "matches": [ "*://proxer.me/*" ],
+      "js": [ "main.js" ]
+    }
+  ],
+  "description": "Exportiere deine Proxer Listen (Anime, Manga und Novel) in eine JSON Datei.",
+  "developer": {
+    "name": "PryosCode",
+    "url": "https://pryoscode.net"
+  },
+  "homepage_url": "https://github.com/PryosCode/ProxerExport",
+  "icons": {
+    "30": "logo.png"
+  },
+  "manifest_version": 2,
+  "name": "ProxerExport",
+  "version": "2.0.0"
+}
