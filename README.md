@@ -12,7 +12,7 @@ Exportiere deine [Proxer](https://proxer.me) Listen ([Anime](https://proxer.me/u
 
 ~~Chrome~~
 
-~~Firefox~~
+[Firefox](https://addons.mozilla.org/de/firefox/addon/proxerexport/)
 
 ## Nutzung
 
