@@ -20,17 +20,17 @@ jobs:
           node-version: 16
 
       - name: Build
-          run: |
-            echo VERSION=$(node -p "require('./package.json').version") >> $GITHUB_ENV
-            yarn install
-            yarn build
+        run: |
+          echo VERSION=$(node -p "require('./package.json').version") >> $GITHUB_ENV
+          yarn install
+          yarn build
 
       - name: Upload GitHub
-          uses: actions/upload-artifact@v2
-          with:
-            name: ProxerExport-v${{ env.VERSION }}
-            path: web-ext-artifacts/proxerexport-${{ env.VERSION }}.zip
-            if-no-files-found: error
+        uses: actions/upload-artifact@v2
+        with:
+          name: ProxerExport-v${{ env.VERSION }}
+          path: web-ext-artifacts/proxerexport-${{ env.VERSION }}.zip
+          if-no-files-found: error
 
       - name: Release GitHub
         uses: softprops/action-gh-release@v1
