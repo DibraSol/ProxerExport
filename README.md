@@ -10,7 +10,7 @@ Exportiere deine [Proxer](https://proxer.me) Listen ([Anime](https://proxer.me/u
 
 ## Installation
 
-~~Chrome~~
+[Chrome](https://chrome.google.com/webstore/detail/proxerexport/mpjbcofaghempadploclgbdkfdnpnkme)
 
 [Firefox](https://addons.mozilla.org/firefox/addon/proxerexport/)
 
