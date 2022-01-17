@@ -1,6 +1,6 @@
 {
   "name": "ProxerExport",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Exportiere deine Proxer Listen (Anime, Manga und Novel) in eine JSON Datei.",
   "keywords": [
     "anime",
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "dev:bundle": "webpack watch --mode=development",
-    "dev:browser": "wait-on build && web-ext run --source-dir build -u https://proxer.me/ucp?s=anime",
+    "dev:browser": "wait-on build && web-ext run -t chromium --source-dir build -u https://proxer.me/ucp?s=anime",
     "dev": "concurrently \"yarn dev:bundle\" \"yarn dev:browser\"",
     "build:bundle": "webpack --mode=production",
     "build:pack": "web-ext build --overwrite-dest --source-dir build",
