@@ -5,7 +5,6 @@ import ESLintWebpackPlugin from "eslint-webpack-plugin";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 
 const config: webpack.Configuration = {
-  devtool: "source-map",
   entry: {
     server: path.resolve(__dirname, "src", "main.ts"),
   },

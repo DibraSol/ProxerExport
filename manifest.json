@@ -15,6 +15,6 @@
   "icons": {
     "30": "logo.png"
   },
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "ProxerExport"
 }
